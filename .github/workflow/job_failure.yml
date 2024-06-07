@@ -35,7 +35,7 @@ jobs:
       - name: Send failure notification
         run: |
           echo "Build or tests failed"
-          curl -X POST -H 'Content-type: application/json' --data '{"text":"Build or tests failed"}' YOUR_WEBHOOK_URLs
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"Build or tests failed"}' https://bosch.webhook.office.com/webhookb2/d75b0c0e-024d-4ccd-a5a5-e7047f3e3717@0ae51e19-07c8-4e4b-bb6d-648ee58410f4/IncomingWebhook/e6746012100e47d99c75c4fe1dc9f457/7322bd98-03dc-458e-b173-161109337c34
 
 
         
